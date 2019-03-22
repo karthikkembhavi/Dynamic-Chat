@@ -6,15 +6,27 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "lodash": "^4.17.11",
+    "mongodb": "^3.2.1",
+    "mongoose": "^5.4.19",
     "socket.io": "^2.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jasmine",
     "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikkembhavi/Dynamic-Chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karthikkembhavi/Dynamic-Chat/issues"
+  },
+  "homepage": "https://github.com/karthikkembhavi/Dynamic-Chat#readme"
 }
